@@ -1,0 +1,83 @@
+/*
+<i class="fas fa-cloud">
+<<i class="fas fa-cloud-sun-rain"></i>/i>
+<<i class="fas fa-cloud-sun"></i>/i> */
+body{
+font-family: 'Questrial', sans-serif;
+  background-color: white;
+  color: #A51639;              /* A51639  */
+}
+.tempdescp{
+border-radius: 20px;
+padding: 20px 30px;
+box-shadow: 10px 10px 8px #888888;
+ background-color: #ececeb   ;                    /* f9d5bb */
+width: 350px;
+height: 570px;
+margin:auto;
+
+}
+input{
+  border-style: none;
+  border-bottom: 2px solid #c9485b;
+  width: 250px;
+  font-size: 1.3rem;
+  background-color: rgba(0,0,0,0);
+font-family: 'Questrial', sans-serif;
+    color: #c9485b;
+}
+button{
+    background-color: rgba(0,0,0,0);
+    width: 50px;
+    font-size: 1.3rem;
+    border-style: none;
+    position: absolute;
+    bottom: -5px;
+    right: 30px;
+font-family: 'Questrial', sans-serif;
+      color: #c9485b;
+}
+form{
+  position: relative;
+  margin-bottom: 50px;
+  color: black;
+}
+img{
+  width: 50%;
+  margin-bottom: -60px;
+  transition: 1s ease-in;
+}
+.temp{
+  text-align: center;
+
+}
+.otherdescp{
+  width: auto;
+ background-color: #A51639 ;                          /*f66767 */
+  border-radius: 20px;
+  height: 100px;
+  color: #f5f0e3;
+  padding: 10px 20px;
+  margin-top: 40px;
+}
+.col{
+  display: inline-block;
+  margin: 0px 40px 0px 0px;
+}
+.col-last{
+    display: inline-block;
+}
+h2{
+  font-size: 3rem;
+  margin-bottom: -10px;
+}
+.icon{
+  width: 50%;
+  margin-bottom: -60px;
+margin-top: 50px;
+}
+h1{
+  font-size: 2.7rem;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}

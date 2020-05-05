@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="display">
+    <div class="back-color"  style="background-color: #ffd31d">
+    </div>
+    <form class="cityinput" method="post" action="/">
+      <input type="text" name="cityname">
+      <button type="submit">Go</button>
+    </form>
+
+    <div class="temp-descp">
+      <span class="temp"><%=temperture%>°c</span>
+      <img class="img">
+      <h3 class="descp"><%=description%></h3>
+    </div>
+  </div>
+  <h1 id="h1"></h1>
+  <script src="App.js" charset="utf-8"></script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+<script src="https://use.fontawesome.com/f8585a52b7.js"></script>
+<script src="https://kit.fontawesome.com/2b7d5ed5fc.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+<div class="tempdescp">
+<form class="inputcity" action="/" method="post">
+  <input placeholder="Enter Your City" name="cityname">
+  <button type="submit">Set</button>
+</form>
+<div style="margin-bottom:-20px;">
+<h2><%=city%></h2>
+<h4><%=Dates%></h4>
+</div>
+<div class="temp">
+   <!-- <i class="icon fas fa-cloud-sun fa-7x"></i> -->
+<img src="<%=source%>" alt="">
+<h1><%=temperture%>°c</h1>
+<h3><%=description%></h3>
+</div>
+<div class="otherdescp">
+  <div class="col">
+    <p>Humidity</p>
+    <p><b><%=humid%>%</b></p>
+  </div>
+  <div class="col">
+    <p>Wind Speed</p>
+    <p><b><%=wspeed%> m/sec</b></p>
+  </div>
+  <div class="col-last">
+    <p>Pressure</p>
+    <p><b><%=press%> hPa</b></p>
+  </div>
+
+</div>
+
+</div>
+
+
+<script src="App.js" charset="utf-8"></script>
+  </body>
+</html>
